@@ -2,12 +2,10 @@
 import os
 import shutil
 import sys
+# print(os.getcwd())
+sys.path.append(os.getcwd())
+from  cwpack.basic.FileFolderHandle import *
  
-
-def Is_File_Exist(file_input):
-    '''文件是否存在
-    '''
-    return os.path.exists(file_input)
 
 def Print_Line_In_File(file_input):
     '''读文件
@@ -61,5 +59,4 @@ def Say_Something():
 	
 if __name__=="__main__":
     Say_Something()
-    print(Return_Str_In_File(r"D:\书籍\tt\1.txt"))
 

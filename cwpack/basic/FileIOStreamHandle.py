@@ -2,8 +2,13 @@
 import os
 import shutil
 import sys
-from FileFolderHandle import *
-    
+ 
+
+def Is_File_Exist(file_input):
+    '''文件是否存在
+    '''
+    return os.path.exists(file_input)
+
 def Print_Line_In_File(file_input):
     '''读文件
     '''

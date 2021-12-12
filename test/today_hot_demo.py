@@ -5,7 +5,7 @@
 import os
 import sys
 import threading
-from PyQt5 import QtCore, QtGui, QtWidgets
+# from PyQt5 import QtCore, QtGui, QtWidgets
 from requests import get
 from lxml import etree
 

@@ -23,14 +23,14 @@ HEADERS = {
 class ShowHotMessage(object):
     def __init__(self):
         self.all_url = {
-            '微博热搜...': 'https://tophub.today/n/KqndgxeLl9',
-            '微信热搜...': 'https://tophub.today/n/WnBe01o371',
-            '雪球.......': 'https://tophub.today/n/RrvWOwRv5z',
-            '头条新闻...': 'https://tophub.today/n/x9ozB4KoXb',
-            '抖音热搜...': 'https://tophub.today/n/K7GdaMgdQy',
             '百度实时热点...': 'https://tophub.today/n/Jb0vmloB1G',
             '知乎热榜...': 'https://tophub.today/n/mproPpoq6O',
             '虎嗅热文...': 'https://tophub.today/n/5VaobgvAj1',
+            '雪球.......': 'https://tophub.today/n/RrvWOwRv5z',
+            '微博热搜...': 'https://tophub.today/n/KqndgxeLl9',
+            '微信热搜...': 'https://tophub.today/n/WnBe01o371',
+            '头条新闻...': 'https://tophub.today/n/x9ozB4KoXb',
+            '抖音热搜...': 'https://tophub.today/n/K7GdaMgdQy',
             '哔哩哔哩全站排行...': 'https://tophub.today/n/74KvxwokxM',
             '豆瓣新片...': 'https://tophub.today/n/mDOvnyBoEB'
         }
